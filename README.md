@@ -19,9 +19,9 @@ The main purpose of this image is to be used to show data from a [Home Assistant
 
 | Description  | Value   |
 |--------------|---------|
-| InfluxDB     | 1.8.2   |
+| InfluxDB     | 1.8.6   |
 | ChronoGraf   | 1.8.6   |
-| Grafana      | 7.2.0   |
+| Grafana      | 7.3.6   |
 
 ## Quick Start
 
@@ -70,8 +70,8 @@ docker exec -it <CONTAINER_ID> bash
 Open <http://localhost:3003>
 
 ```
-Username: root
-Password: root
+Username: keith
+Password: admin123
 ```
 
 ### Add data source on Grafana
